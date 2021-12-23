@@ -5,9 +5,6 @@
 * Date         : 23-12-21
 * Course       : Mastering Software Development in R Specialization Capstone
 * Project      : Capstone Project
-    * COD      : MSDR
-    * Instructor: Roger D. Peng
-    * Instructor: Brooke Anderson
 
 #### Installation
 
