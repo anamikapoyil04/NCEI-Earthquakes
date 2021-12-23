@@ -1,0 +1,27 @@
+Package: NCEIEarthquakes
+Type: Package
+Title: Mastering Software Development in R Capstone Project
+Version: 0.1.0
+Author: Anamika P
+Maintainer: Anamika P <anamikap1479@gmail.com>
+Description: Makes geom and interactive maps.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Imports: dplyr,
+       magrittr,
+       readr,
+       ggplot2,
+       leaflet,
+       lubridate,
+       stringr,
+       kableExtra,
+       rlang,
+       scales,
+       prettydoc
+LazyData: true
+Suggests: 
+    knitr,
+    rmarkdown,
+    testthat
+VignetteBuilder: knitr
+RoxygenNote: 6.1.1
