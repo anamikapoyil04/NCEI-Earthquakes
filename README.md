@@ -39,19 +39,19 @@ From this 4,283 observations, there are 27 with negative `YEAR` and 4,256 with p
 
 [ritcher_scale]: https://simple.wikipedia.org/wiki/Richter_scale
 
-### Objectivies
+### Objectives
 
-Development a new package capable to plot a timeline using the ggplot2 as bedrock. I have also created a function to deal with maps ([OpenStreet maps][openstreet_url]) and earthquake information.
+Develops a new package capable to plot a timeline using the ggplot2 as bedrock, with a function to create maps ([OpenStreet maps][openstreet_url]) and earthquake information.
 
 [openstreet_url]: https://www.openstreetmap.org
 
-### Functionalities
+### Functions
 
-The package has 6 functions, which could be easily used, 2 functions with some restrictions of use (because it is not so easy to use), and 1 theme.
+The package has 6 functions and a theme.
 
 #### `earqke_clean_data`
 
-This function loads a given file_name and then performs the data cleaning. Undercover of this process these functions call the `eq_location_clean` to creates a new column called `LOCATION`.
+This function loads a given file_name and then performs the data cleaning. Undercover of this process these functions call the `earqke_location_clean` to creates a new column called `LOCATION`.
 
 Have in mind, this function also perfoms the conversion of data to the proper class type.
 
@@ -61,7 +61,7 @@ Combines three columns to creates a new one with `HTML` structure, this is neces
 
 #### `earqke_location_clean`
 
-Adds the `LOCATION` column. The dataset must have the `LOCATION_NAME`. If not the function will not work properly.
+Adds the `LOCATION` column. The dataset must have the `LOCATION_NAME`. If not, the function will not work properly.
 
 #### `earqke_map`
 
