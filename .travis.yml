@@ -4,6 +4,7 @@
     "linux"
   ],
   "dist": "xenial",
+  "sudo": required,
   "cache": {
     "packages": true
   },
