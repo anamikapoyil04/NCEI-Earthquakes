@@ -15,7 +15,7 @@ You can use this package installing it by the use of [`devtools`][url_devtools] 
 devtools::install_github("AndersonUyekita/JHU_MSDR_Capstone")
 
 # Loading the library
-library(msdr)
+library(NCEIEarthquakes)
 ```
 
 [url_devtools]: https://cran.r-project.org/web/packages/devtools/index.html
