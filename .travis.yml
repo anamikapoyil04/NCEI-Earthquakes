@@ -7,5 +7,41 @@
   "sudo": false,
   "cache": {
     "packages": true
+  },
+  "jobs": {
+    "include": [
+      {
+        "os": "linux",
+        "dist": "xenial",
+        "env": [
+          {
+            "Ubuntu_Nickname": "xenial16",
+            "GCC_Version": "5.4.0"
+          }
+        ],
+        "after_success": [
+          "Rscript -e 'covr::codecov()'"
+        ]
+      },
+      {
+        "os": "linux",
+        "dist": "bionic",
+        "env": [
+          {
+            "Ubuntu_Nickname": "bionic18",
+            "GCC_Version": "7.4.0"
+          }
+        ]
+      },
+      {
+        "os": "osx",
+        "osx_image": "xcode12.2",
+        "env": [
+          {
+            "_R_CHECK_LENGTH_1_CONDITION_": "true"
+          }
+        ]
+      }
+    ]
   }
 }
