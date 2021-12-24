@@ -12,7 +12,7 @@ You can use this package installing it by the use of [`devtools`][url_devtools] 
 
 ```
 # Downloading the package
-devtools::install_github("AndersonUyekita/JHU_MSDR_Capstone")
+devtools::install_github("anamikapoyil04/NCEI-Earthquakes")
 
 # Loading the library
 library(NCEIEarthquakes)
@@ -24,7 +24,7 @@ library(NCEIEarthquakes)
 
 ## Introduction
 
-This package is the outcome of the Mastering Software Development in R Capstone.
+This package is the Week 6 assignment of the course "Mastering Software Development in R Capstone".
 
 ### Description
 
